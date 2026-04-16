@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Knowledge</title>
+    <link href="css/ScratchPage.css" rel="stylesheet" />
+</head>
+
+    <body>
+    
+        <!-- Navigation / On-page anchor links -->
+    
+        <div class="nav">
+        
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="ScratchPage.html">Scratch Page</a>
+            <a href="app.html">App</a>
+            <a href="#tableau-section">Jump to Tableau Graph</a>
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Basketball</h1>
+            <p>
+                Basketball is my favorite sport and I have been playin since I was 9 years old.
+                This page covers most of the basics that make the game so fun to watch, play, and even analyze if your like me and have a strong passion for the game. 
+            </p>
+        </div>
+
+        <!-- Main intro content -->
+        <div class="content-box">
+            <h2>What Makes Basketball Interesting?</h2>
+            <p>
+                Basketball is fast-paced and constantly changing. Teams have to work together on offense
+                and defense, players have to think quickly, and every possession counts. It is a sport
+                that rewards discipline, communication, and practice.
+            </p>
+
+            <img src="assets/img/Jordan%20jpg.jpg" alt="Flying MJ" class="main-image">
+
+            <p>
+                The sport is way popular all around the world. From high school gyms to the NBA,
+                basketball gives players a chance to compete, improve, and be part of a team.
+            </p>
+        </div>
+
+        <!-- Nested list requirement -->
+        <div class="content-box">
+            <h2>Important Parts of the Game</h2>
+            <ol>
+                <li>Core Skills
+                    <ul>
+                        <li>Dribbling</li>
+                        <li>Shooting</li>
+                        <li>Passing</li>
+                        <li>Defense</li>
+                    </ul>
+                </li>
+                <li>Positions
+                    <ul>
+                        <li>Point Guard</li>
+                        <li>Shooting Guard</li>
+                        <li>Small Forward</li>
+                        <li>Power Forward</li>
+                        <li>Center</li>
+                    </ul>
+                </li>
+                <li>How Teams Win (in my opinion)
+                    <ul>
+                        <li>Good communication</li>
+                        <li>Smart shot selection</li>
+                        <li>Strong defense</li>
+                        <li>Passing with Intent</li>
+                        <li>Rebounding</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Three divs requirement is already satisfied by nav, header, and content-boxes -->
+        <div class="content-box" id="video-section">
+            <h2>Basketball Video</h2>
+            <p>
+                This embedded YouTube video adds multimedia to the page and helps show the excitement of basketball.
+            </p>
+
+            <div class="video-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/LAr6oAKieHk" 
+                    title="YouTube basketball video" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Tableau requirement -->
+        <div class="content-box" id="tableau-section">
+            <h2>Interactive Tableau Graph</h2>
+                <p>
+                    Below is a live Tableau visualization. It is interactive, so you can hover and click on it.
+                </p>
+
+            <div class='tableauPlaceholder' id='viz168basketball' style='position: relative'>
+                <noscript>
+                <a href='#'>
+                <img alt='Tableau Visualization'
+                src='https://public.tableau.com/static/images/Re/RegionalSampleWorkbook/Stocks/1_rss.png'
+                style='border: none' />
+                </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='RegionalSampleWorkbook/Stocks' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                </object>
+            </div>
+
+            <script type='text/javascript'>
+            var divElement = document.getElementById('viz168basketball');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = '700px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+    </div>
+            <div class="content-box">
+                <h2>Why I Chose This Topic</h2>
+                <p>
+                I chose basketball because it is a sport that is easy to enjoy at many levels. It can be
+                played casually with friends or at a highly competitive level. Basketball also teaches
+                leadership, effort, and teamwork.
+                </p>
+                <p>
+                <a href="#top"></a>
+                </p>
+            </div>
+
+            <div class="footer">
+                <p>Created as a from-scratch page for my web development project.</p>
+                <p>
+                <a href="index.html">Back to Professional Home</a> |
+                <a href="resume.html">View My Résumé</a> |
+                <a href="app.html">Open My App</a>
+                </p>
+            </div>
+    </body>
+</html>
+
+
